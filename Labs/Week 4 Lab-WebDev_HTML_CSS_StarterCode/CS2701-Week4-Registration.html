@@ -32,19 +32,49 @@
                            Check lecture slides and the links on the slides to learn about forms
                            and how to create a button that would react to a click Event
                         -->
-                    <!-- Example given for user type checkboxes-->
-                    
-                    <input type="checkbox" id="buyer" name="buyer" value="buyer">
-                    <label for="buyer">I want to buy produce directly from allotment owners.</label><br>
-                    <input type="checkbox" id="seller" name="seller" value="seller">
-                    <label for="seller">I want to sell produce from my allotment.</label><br><br>
+                <!-- Example given for user type checkboxes-->
 
-                    <br><br>
-                </form>
-                <div class="center" id="hiddenSection">
-                    <p id="hiddenParagraph"></p>
-                </div>
-            </section>
-        </main>
-    </body>
+                <label for="name">Name:</label>
+                <br>
+                <input type="text" id="name" name="Name" value="" required>
+                <br><br>
+
+                <label for="email">Email:</label>
+                <br>
+                <input type="email" id="email" name="Email" required>
+                <br><br>
+
+                <label for="password">Password:</label>
+                <br>
+                <input type="password" id="password" name="Password" required>
+                <br><br>
+
+                <label for="confirm-password">Re-type Password:</label>
+                <br>
+                <input type="password" id="confirm-password" name="Re-type Password" required>
+                <br><br>
+
+
+
+                <input type="checkbox" id="buyer" name="buyer" value="buyer">
+                <label for="buyer">I want to buy produce directly from allotment owners.</label><br>
+                <input type="checkbox" id="seller" name="seller" value="seller">
+                <label for="seller">I want to sell produce from my allotment.</label><br><br>
+
+                <br>
+
+                <input type="checkbox" id="agree" name="agree" value="agreed">
+                <label for="agree">I agree to the <a href="example.com">Terms of Use</a> and <a
+                        href="example.com">Privacy Policy</a></label>
+                <br>
+                <button>Register</button>
+                <a href="example.com">Learn More</a>
+            </form>
+            <div class="center" id="hiddenSection">
+                <p id="hiddenParagraph"></p>
+            </div>
+        </section>
+    </main>
+</body>
+
 </html>
